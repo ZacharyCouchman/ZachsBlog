@@ -15,19 +15,19 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-AU"
 title                    : "Zach's Blog"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Zachary Couchman"
-description              : "Elite Software Developer"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : ZacharyCouchman/ZachsBlog # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+description              : "Melbourne Software Developer"
+url                      : #"https://zacharycouchman.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : #"/blog" # the subpath of your site, e.g. "/blog"
+repository               : "ZacharyCouchman/blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : Zach's Blog # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs            : true # true, false (default)
-words_per_minute         : 200
+breadcrumbs              : # true, false (default)
+words_per_minute         : 170
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
@@ -64,7 +64,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -107,17 +107,20 @@ analytics:
 # Site Author
 author:
   name             : "Zachary Couchman"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Elite Software Developer based in Melbourne"
-  location         : "Melbourne, AUS"
-  email            :
+  avatar           : "/assets/images/Zach_Photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I work for Readify as a Software Developer in Melbourne."
+  location         : "Melbourne, Australia"
+  email            : #
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/zacharycouchman"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:zcouchman@gmail.com"
-    - label: "Website"
+    - label: "Readify"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://readify.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -134,24 +137,27 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    # - label: "LinkedIn"
+    #   icon: "fab fa-fw fa-linkedin"
+    #   url: "https://linkedin.com/in/zacharycouchman"
+    # - label: "Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:zcouchman@gmail.com"
+    # - label: "Readify"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://readify.net"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url: "https://twitter.com/"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url: "https://facebook.com/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   # url: "https://github.com/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url: "https://instagram.com/"
 
 
 # Reading Files
@@ -278,7 +284,9 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
+    
+paginate: 5
+paginate_path: /page:num/
 
 # Defaults
 defaults:
