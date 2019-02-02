@@ -50,7 +50,7 @@ Input your database credentials
 
 It's really easy to visualise data in Power BI using graphs, tables, matrices, cards and charts. This visualisation is a grouped bar chart. Drag and drop the values in, add colours, borders, backgrounds, titles, axes and more.
 <br>
-![image]({{site.url}}/assets/images/2019-10-09-Business-Insights-with-Power_BI/Visualisation.png)
+![image]({{site.url + site.baseurl}}/assets/images/2019-10-09-Business-Insights-with-Power_BI/Visualisation.png)
 
 Product Revenue and Cost
 
