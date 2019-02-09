@@ -25,22 +25,22 @@ I created a SQL view for the product revenue and a view for the product costs. O
 
 #### Select the data source. Get data -> SQL Server
 <br>
-![image]({{site.url}}/blog/assets/images/2019-10-09-Business-Insights-with-Power_BI/GetDataPNG.PNG)
+![image]({{site.url}}/assets/images/2019-10-09-Business-Insights-with-Power_BI/GetDataPNG.PNG)
 
 <br>
 #### Input the server connection string and database name
-![image]({{site.url}}/blog/assets/images/2019-10-09-Business-Insights-with-Power_BI/SQLDatabase.PNG)
+![image]({{site.url}}/assets/images/2019-10-09-Business-Insights-with-Power_BI/SQLDatabase.PNG)
 
 #### Input database security credentials
 
 To make sure the database is secured the report needs user access credentials. Depending on how the database is set up, this could be local Windows credentials, database account credentials or a linked Microsoft account.
 <br>
-![image]({{site.url}}/blog/assets/images/2019-10-09-Business-Insights-with-Power_BI/credentials.png)
+![image]({{site.url}}/assets/images/2019-10-09-Business-Insights-with-Power_BI/credentials.png)
 
 Input your database credentials
 
 #### Select the SQL Views to import into Power BI
-![image]({{site.url}}/blog/assets/images/2019-10-09-Business-Insights-with-Power_BI/SelectViews.png)
+![image]({{site.url}}/assets/images/2019-10-09-Business-Insights-with-Power_BI/SelectViews.png)
 
 #### Select Database, select SQL views and click load.
 
@@ -50,7 +50,7 @@ Input your database credentials
 
 It's really easy to visualise data in Power BI using graphs, tables, matrices, cards and charts. This visualisation is a grouped bar chart. Drag and drop the values in, add colours, borders, backgrounds, titles, axes and more.
 <br>
-![image]({{site.url}}/blog/assets/images/2019-10-09-Business-Insights-with-Power_BI/Visualisation.png)
+![image]({{site.url}}/assets/images/2019-10-09-Business-Insights-with-Power_BI/Visualisation.png)
 
 Product Revenue and Cost
 
@@ -58,7 +58,7 @@ Product Revenue and Cost
 
 Slicers can be used to allow the user to apply dynamic filters to the data so that they can quickly see specific metrics. For example, slicers were added so that the user could quickly see how a specific product was doing in the current financial year.
 <br><br>
-![image]({{site.url}}/blog/assets/images/2019-10-09-Business-Insights-with-Power_BI/Filters.PNG)
+![image]({{site.url}}/assets/images/2019-10-09-Business-Insights-with-Power_BI/Filters.PNG)
 Slicers give the user the ability to dynamically filter the data
 
 #### DAX Queries for specific measurements / calculations
