@@ -4,7 +4,7 @@ author_profile: true
 title: About
 ---
 
-I am a full stack software developer specialising in the .NET and Microsoft Azure tech stack.<br>
+I am a full stack software developer specialising in the .NET and Microsoft Azure tech stack. I work at Readify in Melbourne as part of the Internal Delivery team.<br>
 
 After starting in Readify's Managed Services team supporting multiple customer products, I joined the Internal Delivery team. I currently work on multiple internal systems across all areas of the Readify business to support sales collaboration, recruiting, consulting, reporting, performance reviews and professional development.
 
